@@ -1,0 +1,21 @@
+{
+    "name": "spirlici/api-request",
+    "description": "",
+    "authors": [
+        {
+            "name": "Spirlici",
+            "email": "sergiu103@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "dev-master",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Spirlici\\ApiRequest": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
